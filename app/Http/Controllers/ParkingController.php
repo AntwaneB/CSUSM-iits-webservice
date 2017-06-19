@@ -21,7 +21,7 @@ class ParkingController extends Controller
     	foreach ($parkings as &$parking)
 	    {
 	    	if ($parking->freeSlots != null)
-	    	    $parking->free_percent = $parking->freeSlots['free_slots'] / $parking->max_slots * 100.0;
+	    	    $parking->free_percent = intval($parking->freeSlots['free_slots'] / $parking->max_slots * 100.0);
 	    	else
 	    		$parking->free_percent = 100;
 	    }
@@ -42,7 +42,7 @@ class ParkingController extends Controller
         $parking->load('slotsHistory');
 
 	    if ($parking->freeSlots != null)
-		    $parking->free_percent = $parking->freeSlots['free_slots'] / $parking->max_slots * 100.0;
+		    $parking->free_percent = intval($parking->freeSlots['free_slots'] / $parking->max_slots * 100.0);
 	    else
 		    $parking->free_percent = 100;
 
