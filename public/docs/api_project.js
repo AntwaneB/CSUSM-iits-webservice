@@ -1,0 +1,20 @@
+define({
+  "name": "ParkingSLots API",
+  "version": "1.0.0",
+  "description": "ParkingSlots API documentation",
+  "title": "ParkingSlots API",
+  "url": "http://parking.antoine.buchser.fr/api",
+  "template": {
+    "withCompare": false,
+    "withGenerator": false
+  },
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2017-06-26T16:55:00.599Z",
+    "url": "http://apidocjs.com",
+    "version": "0.17.5"
+  }
+});

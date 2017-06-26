@@ -1,0 +1,11 @@
+{
+	"name": "ParkingSLots API",
+	"version": "1.0.0",
+	"description": "ParkingSlots API documentation",
+	"title": "ParkingSlots API",
+	"url" : "http://parking.antoine.buchser.fr/api",
+	"template": {
+		"withCompare": false,
+		"withGenerator": false
+	}
+}
