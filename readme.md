@@ -1,6 +1,6 @@
 ## Parking Slots
 
-[Documentation](http://parking.antoine.buchser.fr/docs)
+Parking Slots is a project made in coordination with the IT services at California State University San Marcos in order to monitor how many parking slots are available on each of the campus parking.
 
 Example parking object:
 
